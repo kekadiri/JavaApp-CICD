@@ -4,9 +4,9 @@ pipeline{
         jdk 'jdk17'
         maven 'maven'
     }
-    environment {
-        SCANNER_HOME=tool 'sonar-scanner'
-   }
+  //  environment {
+    //    SCANNER_HOME=tool 'sonar-scanner'
+   //}
     stages {
         stage('clean workspace'){
             steps{
